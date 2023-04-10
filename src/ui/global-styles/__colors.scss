@@ -1,0 +1,15 @@
+html {
+  $primary-color: red;
+  $left-grey-color: black;
+  $right-grey-color: white;
+
+  --clr-primary: #{$primary-color};
+  --clr-gr-bot: #{$left-grey-color};
+  --clr-gr-top: #{$right-grey-color};
+
+  @for $i from 1 through 9 {
+    --clr-gr-#{$i}0: hsl(0 0% #{$i}0%);
+  }
+
+  --clr-text: var(--clr-gr-10);
+}

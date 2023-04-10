@@ -1,0 +1,6 @@
+.nav-link {
+  text-decoration: none;
+  &:link, &:visited, &:hover, &:active {
+    text-decoration: none;
+  }
+}

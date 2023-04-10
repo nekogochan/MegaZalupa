@@ -1,0 +1,23 @@
+.GroupBox {
+  width: max-content;
+  padding-right: 1.5em;
+  margin-top: 0.75em;
+  border: 1px var(--clr-gr-50) solid;
+  border-radius: 4px;
+  position: relative;
+
+  header {
+    display: inline;
+    white-space: nowrap;
+    position: relative;
+    left: 0.75em;
+    top: -0.75em;
+    background-color: var(--clr-gr-top);
+  }
+
+  .content {
+    margin-top: -0.5em;
+    margin-right: -0.5em;
+    padding: 0 0 0.25em 0.75em;
+  }
+}

@@ -1,0 +1,17 @@
+.v-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.h-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.data-grid-2c {
+  display: grid;
+  grid-template-columns: min-content auto;
+  column-gap: 1em;
+}

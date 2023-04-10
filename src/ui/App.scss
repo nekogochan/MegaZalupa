@@ -1,0 +1,46 @@
+.App {
+  height: 100%;
+  width: 100%;
+
+  nav {
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background-color: var(--clr-gr-bot);
+      width: 100%;
+
+      li {
+        list-style-type: none;
+
+        &:not(:last-child) button {
+          border-right: 0;
+        }
+
+        .nav-link {
+          color: var(--clr-gr-top);
+          background-color: var(--clr-gr-bot);
+          display: block;
+          padding: 8px;
+          box-sizing: border-box;
+          border-bottom: 4px solid;
+          border-color: var(--clr-gr-bot);
+          transition: border-color 0.4s, background-color 0.4s, color 0.4s;
+
+          &:hover,
+          &.active {
+            border-color: var(--clr-gr-top);
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    $padding: 12.5%;
+
+    height: 100%;
+    width: calc(100% - $padding * 2);
+    padding: 16px $padding 0;
+  }
+}

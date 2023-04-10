@@ -1,0 +1,19 @@
+.SomeReactShit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .content {
+    width: 100%;
+
+    header {
+      text-align: center;
+    }
+
+    section:not(:last-child) {
+      margin-bottom: 8px;
+      border-bottom: 2px solid rgba(var(--clr-gr-left-raw), 0.7);
+      padding-bottom: 8px;
+    }
+  }
+}

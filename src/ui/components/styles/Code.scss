@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+
+.Code {
+  display: flex;
+  flex-direction: column;
+
+  .code-name {
+    text-align: left;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+
+    .copy-icon {
+      position: relative;
+      top: 0.1rem;
+    }
+  }
+
+  pre {
+    border: 1px solid var(--clr-gr-90);
+    margin: 0;
+    font-size: 0.75rem;
+
+    code {
+      font-family: 'JetBrains Mono', monospace;
+    }
+  }
+}
